@@ -4,7 +4,7 @@ Pesto Tech is proudly launching its own Online Clothing Store named **Little Tag
 
 # MVP Requirement
 
-1. Show Login/Signup popup to user when he/she lands on the site for first time.)
+1. Show Login/Signup popup to user when he/she lands on the site for first time.
 2. User should be able to Login / Signup from the header button.
 3. User should be able to Login/Signup through Google/Facebook or with their mobile numbers
 4. User should be able to search items on the site using Search bar.

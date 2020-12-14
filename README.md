@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Little Tags - An Online Clothing Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pesto Tech is proudly launching its own Online Clothing Store named **Little Tags**. You have been awarded with the project and you need to design and develop this project which should meet the requirements mentioned in the MVP below.
 
-## Available Scripts
+# MVP Requirement
 
-In the project directory, you can run:
+1. Show Login/Signup popup to user when he/she lands on the site for first time.)
+2. User should be able to Login / Signup from the header button.
+3. User should be able to Login/Signup through Google/Facebook or with their mobile numbers
+4. User should be able to search items on the site using Search bar.
+5. User should be able to browse items by categories mentioned on Home Page.
+6. User should be able to see detailed description of an item by clicking on it. (refer design)
+7. User should be able to select Size, Quantity and other parameter(if any) before adding item to the cart.
+   User should be able to add and remove items in the cart.
+8. Only logged in user should be able to add items to the cart.
+9. Only logged in user should be able to place order.
+10. User should be able to access item categories from Hamburger menu (refer design).
 
-### `yarn start`
+11. Website should be mobile responsive. user should be able to browse/purchase items on their mobile browser.
+12. User should be able to see their order history.
+13. User should be able to set their default shipping address.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Note: Please deploy your application to Netlify(no other platforms allowed at this point) and Add your Application link to website section in About field**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Bonus Requirement
 
-### `yarn test`
+1. Integrate Razorpay/Stripe Payment (sandbox environment)
+2. User should be able to set default payment method
+3. User should be able to add items to wishlist
+4. Write Test cases for your components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## UI Design mocks
 
-### `yarn build`
+UI design mocks are available in `design-mocks` folder
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+|                                    |                                        |
+| :--------------------------------: | :------------------------------------: |
+|     ![](design-mocks/home.png)     |  ![](design-mocks/home_logged_in.png)  |
+| ![](design-mocks/product_list.png) |     ![](design-mocks/product.png)      |
+|     ![](design-mocks/cart.png)     |     ![](design-mocks/checkout.png)     |
+|    ![](design-mocks/orders.png)    | ![](design-mocks/successful_order.png) |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Adobe XD design link](https://drive.google.com/file/d/1_e7X57CoN7YhDlapVlLkL14ksVTzAwQh/view?usp=sharing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Zeplin web link](https://zpl.io/29L0mEW)
 
-### `yarn eject`
+# API
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Use `https://fakestoreapi.com/products` to fetch products.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Allowed Tech stack(Language/Library)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- HTML, CSS, JavaScript
+- Bootstrap
+- ReactJS
+- SCSS
+- DOM Testing Library
+- Jest and React Testing Library
+- React Router
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**NOTE: React Component libraries like Material UI, Antd, Chakra UI are not allowed**

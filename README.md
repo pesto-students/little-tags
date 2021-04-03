@@ -28,10 +28,12 @@ Pesto Tech is proudly launching its own Online Clothing Store named **Little Tag
 2. User should be able to set default payment method
 3. User should be able to add items to wishlist
 4. Write Test cases for your components
+5. Add multiple language support for your site. User should be able to change site language from header. all text content should be in selected language. keep `English` as default language.
 
 ## UI Design mocks
 
 UI design mocks are available in `design-mocks` folder
+Please note that UI design mocks are provided only for reference and benchmarking purpose. Design mocks doesn't cover all possible set of features in your application(for example, multiple language support). your application design **should not** be exact replica of provided mocks.
 
 |                                    |                                        |
 | :--------------------------------: | :------------------------------------: |
@@ -42,12 +44,12 @@ UI design mocks are available in `design-mocks` folder
 
 [Adobe XD design link](https://drive.google.com/file/d/1_e7X57CoN7YhDlapVlLkL14ksVTzAwQh/view?usp=sharing)
 
-[Zeplin web link](https://zpl.io/29L0mEW)
+[Zeplin web link](https://zpl.io/a7j7MJE)
 
 # API
 
 Use `https://fakestoreapi.com/products` to fetch products.
-
+You are allowed to use static data or any other third party api for fetching data.
 ## Allowed Tech stack(Language/Library)
 
 - HTML, CSS, JavaScript
@@ -59,3 +61,19 @@ Use `https://fakestoreapi.com/products` to fetch products.
 - React Router
 
 **NOTE: React Component libraries like Material UI, Antd, Chakra UI are not allowed**
+
+
+## Implementation from Previous Pesto batches (For Inspiration and reference purpose only)
+
+
+- https://stoic-bhaskara-ffe50d.netlify.app/
+- https://trendz.fashion/
+- https://little-tags-fe-nishantbisen09.vercel.app/
+- https://little-tags-pesto.netlify.app/
+- https://affectionate-jackson-ba5d1a.netlify.app/
+- https://ecommerce-deep-dive.netlify.app/
+- https://cocky-pare-43b620.netlify.app/#/
+- https://little-tags-nikhil-gobinda.netlify.app/
+
+
+Note: Your design for project should not be replica of ☝️ demos. these links are provided for inspiration purpose only.
